@@ -1,0 +1,46 @@
+body{background-color: burlywood;
+    text-align: center;
+    padding-top: 500px;
+
+}
+
+.container {max-width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: solid 1px red;
+
+}
+
+#user-input {width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+
+}
+
+button {
+    width:100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    color: brown;
+    font-weight: bolder
+}
+
+
+@media screen and (max-width:48rem){
+    .second-line{
+      padding-left: 2rem ;
+      padding-right: 2rem;
+      text-align: center;
+    }
+  }

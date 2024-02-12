@@ -71,6 +71,8 @@ function play(){
     }else{resultArea.textContent="맞췄습니다!!!"  
     }
 
+
+
     history.push(userValue)
     console.log(history)
     // 앞에서 1과100사이다 등 유효성 검사하고
